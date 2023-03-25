@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/product.schema.json",
+  "title": "Monster",
+  "description": "Schema for a Monster",
+  "type": "object",
+  "properties": {
+    "trade": {
+      "description": "The trade items of the NPC",
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "The name of the trade thing",
+            "type": "string"
+          },
+          "price": {
+            "description": "The price of the trade thing",
+            "type": "integer",
+            "minimum": 0
+          },
+          "id": {
+            "description": "The identifier of the trade thing",
+            "type": "integer",
+            "minimum": 0
+          },
+          "count": {
+            "description": "The count of the traded thing",
+            "type": "integer",
+            "minimum": 0
+          },
+          "type": {
+            "description": "The type of the trade thing (buy/sell)",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "price",
+          "id",
+          "type"
+        ]
+      }
+    },
+    "hearingRange": {
+      "description": "The hearing range of the NPC",
+      "type": "integer",
+      "minimum": 0
+    },
+    "wanderRange": {
+      "description": "The wandering range of the NPC",
+      "type": "integer",
+      "minimum": 0
+    },
+    "sayings": {
+      "description": "Sayings of the NPC",
+      "type": "object",
+      "properties": {
+        "texts": {
+          "description": "Array of random sayings of the NPC",
+          "type": "array",
+          "minItems": 1
+        },
+        "slowness": {
+          "description": "Slowness of sayings of the NPC",
+          "type": "integer",
+          "minimum": 0
+        },
+        "chance": {
+          "description": "Chance of sayings of the NPC",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "texts",
+        "slowness",
+        "chance"
+      ]
+    },
+    "greetings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "farewells": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "creatureStatistics": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "health": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "maxHealth": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "mana": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "maxMana": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "attack": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "attackSlowness": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "defense": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "speed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "outfit": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "details": {
+              "type": "object",
+              "properties": {
+                "head": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 133
+                },
+                "body": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 133
+                },
+                "legs": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 133
+                },
+                "feet": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 133
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "head",
+                "body",
+                "legs",
+                "feet"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "id"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "health",
+        "maxHealth",
+        "mana",
+        "maxMana",
+        "attack",
+        "attackSlowness",
+        "defense",
+        "speed",
+        "outfit"
+      ]
+    },
+    "script": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "hearingRange",
+    "wanderRange"
+  ]
+}

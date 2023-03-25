@@ -1,0 +1,67 @@
+{
+  "COLOR": {
+    "BLUE": 5,
+    "LIGHTGREEN": 30,
+    "LIGHTBLUE": 35,
+    "MAYABLUE": 95,
+    "DARKRED": 108,
+    "LIGHTGREY": 129,
+    "SKYBLUE": 143,
+    "PURPLE": 155,
+    "RED": 180,
+    "ORANGE": 198,
+    "YELLOW": 210,
+    "WHITE": 215
+  },
+  "BLOODTYPE": {
+    "BLOOD": 0,
+    "POISON": 1,
+    "NONE": 2
+  },
+  "EFFECT": {
+    "MAGIC": {
+      "DRAWBLOOD": 1,
+      "LOSEENERGY": 2,
+      "POFF": 3,
+      "BLOCKHIT": 4,
+      "EXPLOSIONAREA": 5,
+      "EXPLOSIONHIT": 6,
+      "FIREAREA": 7,
+      "YELLOW_RINGS": 8,
+      "GREEN_RINGS": 9,
+      "HITAREA": 10,
+      "TELEPORT": 11,
+      "ENERGYHIT": 12,
+      "MAGIC_BLUE": 13,
+      "MAGIC_RED": 14,
+      "MAGIC_GREEN": 15,
+      "HITBYFIRE": 16,
+      "HITBYPOISON": 17,
+      "MORTAREA": 18,
+      "SOUND_GREEN": 19,
+      "SOUND_RED": 20,
+      "POISONAREA": 21,
+      "SOUND_YELLOW": 22,
+      "SOUND_PURPLE": 23,
+      "SOUND_BLUE": 24,
+      "SOUND_WHITE": 25
+    },
+    "PROJECTILE": {
+      "SPEAR": 1,
+      "BOLT": 2,
+      "ARROW": 3,
+      "FIRE": 4,
+      "ENERGY": 5,
+      "POISONARROW": 6,
+      "BURSTARROW": 7,
+      "THROWINGSTAR": 8,
+      "THROWINGKNIFE": 9,
+      "SMALLSTONE": 10,
+      "DEATH": 11,
+      "LARGEROCK": 12,
+      "SNOWBALL": 13,
+      "POWERBOLT": 14,
+      "POISON": 15
+    }
+  }
+}

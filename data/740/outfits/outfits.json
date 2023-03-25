@@ -1,0 +1,82 @@
+{
+	"128": {
+		"type": "1",
+		"name": "Citizen",
+		"premium": false
+	},
+	"129": {
+		"type": "1",
+		"name": "Hunter",
+		"premium": false
+	},
+	"130": {
+		"type": "1",
+		"name": "Mage",
+		"premium": false
+	},
+	"131": {
+		"type": "1",
+		"name": "Knight",
+		"premium": false
+	},
+	"132": {
+		"type": "1",
+		"name": "Nobleman",
+		"premium": true
+	},
+	"133": {
+		"type": "1",
+		"name": "Summoner",
+		"premium": true
+	},
+	"134": {
+		"type": "1",
+		"name": "Warrior",
+		"premium": true
+	},
+	"136": {
+		"type": "0",
+		"name": "Citizen",
+		"premium": false
+	},
+	"137": {
+		"type": "0",
+		"name": "Hunter",
+		"premium": false
+	},
+	"138": {
+		"type": "0",
+		"name": "Mage",
+		"premium": false
+	},
+	"139": {
+		"type": "0",
+		"name": "Knight",
+		"premium": false
+	},
+	"140": {
+		"type": "0",
+		"name": "Noblewoman",
+		"premium": true
+	},
+	"141": {
+		"type": "0",
+		"name": "Summoner",
+		"premium": true
+	},
+	"142": {
+		"type": "0",
+		"name": "Warrior",
+		"premium": true
+	},
+	"144": {
+		"type": "1",
+		"name": "Elf",
+		"premium": true
+	},
+	"160": {
+		"type": "1",
+		"name": "Dwarf",
+		"premium": true
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"file": "rat-cave.otbm",
+	"name": "The Underwell",
+    "title": "A Moist Cave",
+    "music": "field",
+	"weather": 128,
+	"ambient": {
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 255
+	}
+}

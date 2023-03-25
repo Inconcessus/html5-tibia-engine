@@ -1,0 +1,88 @@
+{
+  "humphrey": {
+    "position": {
+      "x": 81,
+      "y": 80,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "humphrey.json"
+  },
+  "jack": {
+    "position": {
+      "x": 84,
+      "y": 126,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "jack.json"
+  },
+  "albert": {
+    "position": {
+      "x": 73,
+      "y": 94,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "albert.json"
+  },
+  "marrow": {
+    "position": {
+      "x": 100,
+      "y": 90,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "marrow.json"
+  },
+  "miller": {
+    "position": {
+      "x": 96,
+      "y": 119,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "miller.json"
+  },
+  "sarah": {
+    "position": {
+      "x": 85,
+      "y": 117,
+      "z": 13
+    },
+    "enabled": true,
+    "definition": "sarah.json"
+  },
+  "ghost": {
+    "position": null,
+    "enabled": false,
+    "definition": "ghost.json"
+  },
+  "teller": {
+    "position": {
+      "x": 93,
+      "y": 84,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "teller.json"
+  },
+  "karst": {
+    "position": {
+      "x": 55,
+      "y": 91,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "karst.json"
+  },
+  "billy": {
+    "position": {
+      "x": 91,
+      "y": 99,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "billy.json"
+  }
+}

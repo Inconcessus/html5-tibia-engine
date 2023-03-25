@@ -1,0 +1,9 @@
+*.swp
+.DS_Store
+client/data
+server.log
+ssl
+node_modules
+data/*/accounts
+config.json
+client-server.py

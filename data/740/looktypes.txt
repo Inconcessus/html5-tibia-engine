@@ -1,0 +1,129 @@
+1 - ?
+2 - Orc Warlord
+3 - War Wolf
+4 - Orc Rider
+5 - Orc
+6 - Orc Shaman
+7 - Orc Warrior
+8 - Orc Berserker
+9 - Necromancer
+10 - Butterfly
+11 - 
+12 - 
+13 - Black Sheep
+14 - Sheep
+15 - Troll
+16 - Bear
+17 - Bonelord
+18 - Ghoul
+19 - Slime
+20 - Quara Predator
+21 - Rat
+22 - Cyclops
+23 - Minotaur Mage
+24 - Minotaur Archer
+25 - Minotaur
+26 - Rotworm
+27 - Wolf
+28 - Snake
+29 - Minotaur Guard
+30 - Spider
+31 - Deer
+32 - Dog
+33 - Skeleton
+34 - Dragon
+35 - Demon
+36 - Poison Spider
+37 - Demon Skeleton
+38 - Giant Spider
+39 - Dragon Lord
+40 - Fire Devil
+41 - Lion
+42 - Polar Bear
+43 - Scorpion
+44 - Wasp
+45 - Bug
+46 - Knight Outfit (male; blank)
+47 - Knight Outfit (male; blank)
+48 - Ghost
+49 - Fire Elemental
+50 - Orc Spearman
+51 - Green Djinn
+52 - Winter Wolf
+53 - Frost Troll
+54 - Witch
+55 - Behemoth
+56 - Cave Rat
+57 - Monk
+58 - Priestess
+59 - Orc Leader
+60 - Pig
+61 - Goblin
+62 - Elf
+63 - Elf Arcanist
+64 - Elf Scout
+65 - Mummy
+66 - Dwarf Geomancer
+67 - Stone Golem
+68 - Vampire
+69 - Dwarf
+70 - Dwarf Guard
+71 - Dwarf Soldier
+77 - Hunter Outfit (male; blank)
+73 - Hero
+74 - Rabbit
+75 - GM Outfit
+76 - Swamp Troll
+77 - Hunter Outfit (female; blank)
+78 - Banshee
+79 - Ancient Scarab
+80 - Blue Djinn
+81 - Cobra
+82 - Larva
+83 - Scarab
+84 - Pharaoh
+85 - Pharaoh
+86 - Pharaoh
+87 - Pharaoh (peleryna)
+88 - Pharaoh (peleryna)
+89 - Pharaoh
+90 - Pharaoh
+91 - Pharaoh (peleryna)
+92 - Mimic
+93 - Pirate Marauder
+94 - Hyaena
+95 - Gargoyle
+96 - Pirate Cutthroat
+97 - Pirate Buccaneer
+98 - Pirate Corsair
+99 - Lich
+100 - Crypt Shambler
+101 - Bonebeast
+102 - Deathslicer
+103 - Efreet
+104 - Marid
+105 - Badger
+106 - Skunk
+107 - Demon
+108 - Elder Bonelord
+109 - Gazer
+110 - Yeti
+126 - ?
+127 - ?
+128 - Citizen Outfit (male)
+129 - Hunter Outfit (male)
+130 - Mage Outfit (male)
+131 - Knight Outfit (male)
+132 - Nobleman Outfit (male)
+133 - Summoner Outfit (male)
+134 - Warrior Outfit (male)
+135 - N/A
+136 - Citizen Outfit (female)
+137 - Hunter Outfit (female)
+138 - Summoner Outfit (female)
+139 - Knight Outfit (female)
+140 - Noblewoman Outfit (female)
+141 - Mage Outfit (female)
+142 - Warrior Outfit (female)
+144 - Elf Outfit
+160 - Dwarf Outfit

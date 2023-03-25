@@ -1,0 +1,13 @@
+{
+	"file": "start-town.otbm",
+	"name": "Gloria",
+    "music": "field",
+    "title": "The City of Faith",
+	"weather": 0,
+	"ambient": {
+		"r": 155,
+		"g": 155,
+		"b": 155,
+		"a": 255
+	}
+}

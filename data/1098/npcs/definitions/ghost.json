@@ -1,0 +1,32 @@
+{
+  "creatureStatistics": {
+    "name": "A Strange Ghost",
+    "health": 50,
+    "maxHealth": 50,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 1,
+    "attackSlowness": 40,
+    "defense": 5,
+    "slowness": 100,
+    "outfit": {
+      "id": 48
+    }
+  },
+  "hearingRange": 5,
+  "wanderRange": 2,
+  "farewells": [
+    "bye"
+  ],
+  "greetings": [
+    "hello",
+    "hi"
+  ],
+  "sayings": {
+    "texts": [
+      "..."
+    ],
+    "slowness": 300,
+    "chance": 0.75
+  }
+}

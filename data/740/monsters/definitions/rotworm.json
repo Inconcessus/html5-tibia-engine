@@ -1,0 +1,28 @@
+{
+  "creatureStatistics": {
+    "name": "Rotworm",
+    "health": 40,
+    "maxHealth": 40,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 15,
+    "attackSlowness": 40,
+    "defense": 5,
+    "speed": 30,
+    "outfit": {
+      "id": 26
+    }
+  },
+  "fluidType": 0,
+  "experience": 0,
+  "corpse": 2849,
+  "behaviour": {
+    "type": "HOSTILE",
+    "fleeHealth": 0,
+    "openDoors": false,
+    "senseInvisible": false
+  },
+  "loot": [
+    {"id": 2666, "probability": 1, "min": 1, "max": 3}
+  ]
+}

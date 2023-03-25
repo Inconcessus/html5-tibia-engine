@@ -1,0 +1,44 @@
+{
+  "HMAC": {
+    "SHARED_SECRET": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "LOGIN": {
+    "PORT": 1337,
+    "HOST": "127.0.0.1"
+  },
+  "IPC": {
+    "RECONNECT_MS": 1000,
+    "HOST": "127.0.0.1",
+    "PORT": 2000,
+    "SOCKET": "game.sock"
+  },
+  "SERVER": {
+    "EXTERNAL_HOST": "ws://127.0.0.1:2222",
+    "VERSION": "0.0.0",
+    "CLIENT_VERSION": "740",
+    "DATE": "2022-03-24",
+    "PORT": 2222,
+    "HOST": "127.0.0.1",
+    "ALLOW_MAXIMUM_CONNECTIONS": 50,
+    "MS_TICK_INTERVAL": 50,
+    "MS_SHUTDOWN_SCHEDULE": 1000,
+    "MAX_PACKET_SIZE": 1024
+  },
+  "WORLD": {
+    "CHUNK": {
+      "WIDTH": 9,
+      "HEIGHT": 7,
+      "DEPTH": 8
+    },
+    "CLOCK": {
+      "SPEED": 6,
+      "START": "08:00"
+    },
+    "SPAWNS": {
+      "ENABLED": true
+    },
+    "NPCS": {
+      "ENABLED": true
+    }
+  }
+}

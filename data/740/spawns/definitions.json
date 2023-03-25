@@ -1,0 +1,73 @@
+[{
+  "respawnTime": 4,
+  "mid": "slime",
+  "position": {
+    "x": 88,
+    "y": 90,
+    "z": 8
+  }
+}, {
+  "respawnTime": 4,
+  "mid": "sheep",
+  "position": {
+    "x": 53,
+    "y": 104,
+    "z": 9
+  }
+}, {
+  "respawnTime": 4,
+  "mid": "black-sheep",
+  "position": {
+    "x": 54,
+    "y": 106,
+    "z": 9
+  }
+}, {
+  "respawnTime": 4,
+  "mid": "rat",
+  "position": {
+    "x": 109,
+    "y": 92,
+    "z": 7
+  }
+}, {
+  "respawnTime": 4,
+  "mid": "cave-rat",
+  "position": {
+    "x": 107,
+    "y": 93,
+    "z": 7
+  }
+}, {
+  "respawnTime": 4,
+  "mid": "rotworm",
+  "position": {
+    "x": 44,
+    "y": 109,
+    "z": 5
+  }
+}, {
+  "respawnTime": 4,
+  "mid": "bear",
+  "position": {
+    "x": 124,
+    "y": 98,
+    "z": 8
+  }
+}, {
+  "respawnTime": 4,
+  "mid": "spider",
+  "position": {
+    "x": 131,
+    "y": 108,
+    "z": 8
+  }
+}, {
+  "respawnTime": 10,
+  "mid": "skeleton",
+  "position": {
+    "x": 85,
+    "y": 36,
+    "z": 6
+  }
+}]

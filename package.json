@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonschema": "^1.4.1",
+    "ws": "^8.7.0",
+    "xml2js": "^0.4.23"
+  }
+}

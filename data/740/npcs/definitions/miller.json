@@ -1,0 +1,47 @@
+{
+  "creatureStatistics": {
+    "name": "Miller",
+    "health": 50,
+    "maxHealth": 50,
+    "attack": 1,
+    "mana": 0,
+    "maxMana": 0,
+    "attackSlowness": 40,
+    "defense": 5,
+    "speed": 30,
+    "outfit": {
+      "id": 128,
+      "details": {
+        "head": 132,
+        "body": 77,
+        "legs": 116,
+        "feet": 98
+      }
+    }
+  },
+  "hearingRange": 5,
+  "wanderRange": 2,
+  "farewells": [
+    "bye"
+  ],
+  "trade": [
+    {
+      "name": "Scythe",
+      "price": 5,
+      "id": 2550,
+      "type": "sell"
+    }
+  ],
+  "greetings": [
+    "hello",
+    "hi"
+  ],
+  "sayings": {
+    "texts": [
+      "Round and round she goes.."
+    ],
+    "slowness": 300,
+    "chance": 0.75
+  },
+  "script": "miller.js"
+}

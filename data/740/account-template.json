@@ -1,0 +1,119 @@
+{
+  "achievements": {
+    "completed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "properties": {
+      "NUMBER_TILES_WALKED": 0,
+      "TEST_ADDITION": 0,
+      "EXPLORE_TOWN": 0
+    }
+  },
+  "creatureStatistics": {
+    "attack": 4,
+    "attackSlowness": 20,
+    "defense": 2,
+    "direction": 2,
+    "health": 50,
+    "maxHealth": 50,
+    "name": null,
+    "outfit": {
+      "id": null,
+      "details": {
+        "head": 78,
+        "body": 69,
+        "legs": 58,
+        "feet": 76
+      },
+      "mount": 0,
+      "mounted": false,
+      "addonOne": false,
+      "addonTwo": false
+    },
+    "speed": 120
+  },
+  "inbox": [],
+  "depot": [
+    {
+      "id": 2594
+    },
+    null,
+    null,
+    null
+  ],
+  "characterStatistics": {
+    "position": {
+      "x": 82,
+      "y": 81,
+      "z": 8
+    },
+    "admin": false,
+    "sex": null,
+    "templePosition": {
+      "x": 82,
+      "y": 81,
+      "z": 8
+    },
+    "maxCapacity": 20000,
+    "level": 1,
+    "experience": 0,
+    "availableMounts": [],
+    "availableOutfits": []
+  },
+  "spellbook": {
+    "availableSpells": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "cooldowns": []
+  },
+  "keyring": [],
+  "equipment": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "id": 1988,
+      "duration": null,
+      "items": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    null,
+    null,
+    null
+  ],
+  "friends": []
+}

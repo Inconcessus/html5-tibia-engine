@@ -1,0 +1,211 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/product.schema.json",
+  "title": "Monster",
+  "description": "Schema for a Monster",
+  "type": "object",
+  "properties": {
+    "experience": {
+      "description": "The experience points of the monster",
+      "type": "integer",
+      "minimum": 0
+    },
+    "loot": {
+      "description": "The loot of the monster",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "The identifier of the loot thing",
+            "type": "integer",
+            "minimum": 0
+          },
+          "probability": {
+            "description": "The probability of dropping the loot thing",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "min": {
+            "description": "The minimum number of the loot thing",
+            "type": "integer",
+            "minimum": 1
+          },
+          "max": {
+            "description": "The maximum number of the loot thing",
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "probability"
+        ]
+      }
+    },
+    "corpse": {
+      "description": "The corpse identifier of the monster",
+      "type": "integer",
+      "minimum": 0
+    },
+    "sayings": {
+      "description": "Sayings of the monster",
+      "type": "object",
+      "properties": {
+        "texts": {
+          "description": "Array of random sayings of the monster",
+          "type": "array",
+          "minItems": 1
+        },
+        "slowness": {
+          "description": "Slowness of sayings of the monster",
+          "type": "integer",
+          "minimum": 0
+        },
+        "chance": {
+          "description": "Chance of sayings of the monster",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "texts",
+        "slowness"
+      ]
+    },
+    "spells": {
+      "type": "array",
+      "minItems": 1
+    },
+    "behaviour": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "fleeHealth": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "openDoors": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "fleeHealth",
+        "openDoors"
+      ]
+    },
+    "creatureStatistics": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "health": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "maxHealth": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "mana": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "maxMana": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "attack": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "attackSlowness": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "defense": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "slowness": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "outfit": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "details": {
+              "type": "object",
+              "properties": {
+                "head": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 133
+                },
+                "body": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 133
+                },
+                "legs": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 133
+                },
+                "feet": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 133
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "head",
+                "body",
+                "legs",
+                "feet"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "id"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "health",
+        "maxHealth",
+        "mana",
+        "maxMana",
+        "attack",
+        "attackSlowness",
+        "defense",
+        "slowness",
+        "outfit"
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "experience",
+    "corpse",
+    "behaviour"
+  ]
+}

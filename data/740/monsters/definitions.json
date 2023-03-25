@@ -1,0 +1,13 @@
+{
+  "troll": "troll.json",
+  "rabbit": "rabbit.json",
+  "sheep": "sheep.json",
+  "black-sheep": "black-sheep.json",
+  "rat": "rat.json",
+  "cave-rat": "cave-rat.json",
+  "bear": "bear.json",
+  "rotworm": "rotworm.json",
+  "spider": "spider.json",
+  "skeleton": "skeleton.json",
+  "slime": "slime.json"
+}

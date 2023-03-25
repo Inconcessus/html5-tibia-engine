@@ -1,0 +1,13 @@
+{
+	"file": "temple.otbm",
+	"name": "The Temple",
+    "title": "The Alter of the Gods",
+    "music": "field",
+	"weather": 64,
+	"ambient": {
+		"r": 160,
+		"g": 0,
+		"b": 0,
+		"a": 255
+	}
+}

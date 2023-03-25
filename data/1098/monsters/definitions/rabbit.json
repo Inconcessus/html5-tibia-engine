@@ -1,0 +1,31 @@
+{
+  "creatureStatistics": {
+    "name": "Rabbit",
+    "health": 50,
+    "maxHealth": 50,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 0,
+    "attackSlowness": 40,
+    "defense": 5,
+    "slowness": 15,
+    "outfit": {
+      "id": 74
+    }
+  },
+  "experience": 0,
+  "behaviour": {
+    "type": "FRIENDLY",
+    "fleeHealth": 50,
+    "openDoors": true
+  },
+  "corpse": 3119,
+  "loot": [
+    {"id": 2666, "probability": 1, "min": 1, "max": 3}
+  ],
+  "sayings": {
+   "texts": ["Mip mip mip"],
+   "slowness": 300,
+   "chance": 0.75
+  }
+}

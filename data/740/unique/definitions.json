@@ -1,0 +1,8 @@
+[
+  {"uid": 1000, "on": "use", "callback": "enter-trunk.js"},
+  {"uid": 1001, "on": "use", "callback": "touch-magic-flame.js"},
+  {"uid": 1002, "on": "use", "callback": "crypt-chest.js"},
+  {"uid": 1003, "on": "use", "callback": "crypt-chest.js"},
+  {"uid": 1004, "on": "enter", "callback": "crypt-tile.js"},
+  {"uid": 1005, "on": "use", "callback": "clock-secret.js"}
+]

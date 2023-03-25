@@ -1,0 +1,25 @@
+{
+  "creatureStatistics": {
+    "name": "Spider",
+    "health": 30,
+    "maxHealth": 30,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 10,
+    "attackSlowness": 40,
+    "defense": 5,
+    "speed": 30,
+    "outfit": {
+      "id": 30
+    }
+  },
+  "fluidType": 1,
+  "experience": 0,
+  "corpse": 2807,
+  "behaviour": {
+    "type": "HOSTILE",
+    "fleeHealth": 10,
+    "openDoors": false,
+    "senseInvisible": false
+  }
+}

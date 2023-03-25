@@ -1,0 +1,33 @@
+{
+  "creatureStatistics": {
+    "name": "Humphrey",
+    "health": 50,
+    "maxHealth": 50,
+    "attack": 1,
+    "mana": 0,
+    "maxMana": 0,
+    "attackSlowness": 40,
+    "defense": 5,
+    "speed": 30,
+    "outfit": {
+      "id": 57
+    }
+  },
+  "hearingRange": 5,
+  "wanderRange": 2,
+  "farewells": [
+    "bye"
+  ],
+  "greetings": [
+    "hello",
+    "hi"
+  ],
+  "sayings": {
+    "texts": [
+      "..."
+    ],
+    "slowness": 300,
+    "chance": 0.75
+  },
+  "script": "humphrey.js"
+}

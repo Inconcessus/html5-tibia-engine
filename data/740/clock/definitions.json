@@ -1,0 +1,5 @@
+[
+  {"callback": "statue.js"},
+  {"callback": "timetile.js"},
+  {"callback": "cemetery-ghost.js"}
+]

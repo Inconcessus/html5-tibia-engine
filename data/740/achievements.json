@@ -1,0 +1,33 @@
+[{
+  "title": "Walking",
+  "description": "You have walked a single tile.",
+  "conditions": [{
+    "property": "NUMBER_TILES_WALKED",
+    "type": "greater",
+    "value": 1
+  }]
+}, {
+  "title": "Walking Some More",
+  "description": "You have walked five tiles.",
+  "conditions": [{
+    "property": "NUMBER_TILES_WALKED",
+    "type": "greater",
+    "value": 5
+  }]
+}, {
+  "title": "Walking Some More and More and More!",
+  "description": "You have walked five tiles.",
+  "conditions": [{
+    "property": "NUMBER_TILES_WALKED",
+    "type": "greater",
+    "value": 10
+  }]
+}, {
+  "title": "Taking a trip downtown..",
+  "description": "Walking Fast!",
+  "conditions": [{
+    "property": "EXPLORE_TOWN",
+    "type": "greater",
+    "value": 7
+  }]
+}]

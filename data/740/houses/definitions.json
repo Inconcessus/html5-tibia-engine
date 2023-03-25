@@ -1,0 +1,13 @@
+{
+  "1": {
+    "owner": "Forbidden",
+    "rent": 100,
+    "exit": {
+      "x": 87,
+      "y": 99,
+      "z": 9
+    },
+    "invited": [],
+    "name": "Bakers Balcony"
+  }
+}

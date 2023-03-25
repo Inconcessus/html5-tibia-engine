@@ -1,0 +1,58 @@
+{
+  "creatureStatistics": {
+    "name": "Troll",
+    "health": 50,
+    "maxHealth": 50,
+    "attack": 1,
+    "mana": 0,
+    "maxMana": 0,
+    "attackSlowness": 40,
+    "defense": 5,
+    "slowness": 20,
+    "outfit": {
+      "id": 15
+    }
+  },
+  "experience": 20,
+  "corpse": 2806,
+  "behaviour": {
+    "type": "HOSTILE",
+    "fleeHealth": 5,
+    "openDoors": true
+  },
+  "loot": [
+    {
+      "id": 2148,
+      "probability": 1,
+      "min": 1,
+      "max": 5
+    },
+    {
+      "id": 2148,
+      "probability": 1,
+      "min": 1,
+      "max": 5
+    },
+    {
+      "id": 2461,
+      "probability": 0.1
+    },
+    {
+      "id": 2148,
+      "probability": 1,
+      "min": 1,
+      "max": 5
+    }
+  ],
+  "sayings": {
+    "texts": [
+      "Hmmm, bugs",
+      "Hmmm, dogs",
+      "Grrr",
+      "Groar",
+      "Gruntz!"
+    ],
+    "slowness": 300,
+    "chance": 0.75
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "humphrey": {
+    "position": {
+      "x": 73,
+      "y": 63,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "humphrey.json"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "creatureStatistics": {
+    "name": "Marrow",
+    "health": 50,
+    "maxHealth": 50,
+    "attack": 1,
+    "mana": 0,
+    "maxMana": 0,
+    "attackSlowness": 40,
+    "defense": 5,
+    "speed": 30,
+    "outfit": {
+      "id": 134,
+      "details": {
+        "head": 0,
+        "body": 39,
+        "legs": 25,
+        "feet": 131
+      }
+    }
+  },
+  "hearingRange": 5,
+  "wanderRange": 2,
+  "trade": [
+    {
+      "name": "Leather Armor",
+      "price": 10,
+      "id": 2467,
+      "type": "sell"
+    },
+    {
+      "name": "Leather Legs",
+      "price": 5,
+      "id": 2649,
+      "type": "sell"
+    },
+    {
+      "name": "Leather Helmet",
+      "price": 3,
+      "id": 2461,
+      "type": "sell"
+    },
+    {
+      "name": "Bow",
+      "price": 10,
+      "id": 2456,
+      "type": "sell"
+    },
+    {
+      "name": "Mace",
+      "price": 5,
+      "id": 2398,
+      "type": "sell"
+    },
+    {
+      "name": "Leather Boots",
+      "price": 3,
+      "id": 2643,
+      "type": "sell"
+    }
+  ],
+  "farewells": [
+    "bye"
+  ],
+  "greetings": [
+    "hello",
+    "hi"
+  ],
+  "sayings": {
+    "texts": [
+      "All sorts of weaponry and armors for sale! The finest in town!"
+    ],
+    "slowness": 300,
+    "chance": 0.75
+  },
+  "script": "marrow.js"
+}

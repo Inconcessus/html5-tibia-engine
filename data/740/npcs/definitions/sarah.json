@@ -1,0 +1,41 @@
+{
+  "creatureStatistics": {
+    "name": "Sarah",
+    "health": 50,
+    "maxHealth": 50,
+    "attack": 1,
+    "mana": 0,
+    "maxMana": 0,
+    "attackSlowness": 40,
+    "defense": 5,
+    "speed": 30,
+    "outfit": {
+      "id": 140,
+      "details": {
+        "head": 39,
+        "body": 105,
+        "legs": 96,
+        "feet": 59
+      }
+    }
+  },
+  "hearingRange": 5,
+  "wanderRange": 2,
+  "farewells": [
+    "bye"
+  ],
+  "greetings": [
+    "hello",
+    "hi"
+  ],
+  "sayings": {
+    "texts": [
+      "♫♪♪",
+      "♪♫♪♫",
+      "What a cloudy day.."
+    ],
+    "slowness": 300,
+    "chance": 0.75
+  },
+  "script": "sarah.js"
+}

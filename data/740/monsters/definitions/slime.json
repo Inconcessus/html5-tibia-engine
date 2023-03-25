@@ -1,0 +1,31 @@
+{
+  "creatureStatistics": {
+    "name": "Slime",
+    "health": 150,
+    "maxHealth": 150,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 0,
+    "attackSlowness": 40,
+    "defense": 5,
+    "speed": 60,
+    "outfit": {
+      "id": 19
+    }
+  },
+  "fluidType": 1,
+  "experience": 160,
+  "corpse": 1496,
+  "behaviour": {
+    "type": "HOSTILE",
+    "fleeHealth": 0,
+    "openDoors": false,
+    "senseInvisible": false
+  },
+  "loot": [],
+  "sayings": {
+   "texts": ["Blubb"],
+   "slowness": 300,
+   "chance": 0.75
+  }
+}

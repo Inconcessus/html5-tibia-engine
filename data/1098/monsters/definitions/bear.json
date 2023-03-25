@@ -1,0 +1,31 @@
+{
+  "creatureStatistics": {
+    "name": "Bear",
+    "health": 80,
+    "maxHealth": 80,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 50,
+    "attackSlowness": 40,
+    "defense": 5,
+    "slowness": 20,
+    "outfit": {
+      "id": 16
+    }
+  },
+  "experience": 0,
+  "corpse": 2849,
+  "behaviour": {
+    "type": "HOSTILE",
+    "fleeHealth": 60,
+    "openDoors": false
+  },
+  "loot": [
+    {"id": 2666, "probability": 1, "min": 1, "max": 3}
+  ],
+  "sayings": {
+   "texts": ["Grrrr", "Groar"],
+   "slowness": 300,
+   "chance": 0.75
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {"id": 2580, "on": "useWith", "callback": "fish.js"},
+  {"id": 2785, "on": "use", "callback": "blueberry.js"},
+
+  {"id": 2362, "on": "use", "callback": "food.js"},
+  {"from": 2666, "to": 2691, "on": "use", "callback": "food.js"},
+  {"from": 2695, "to": 2696, "on": "use", "callback": "food.js"},
+  {"id": 2696, "on": "use", "callback": "food.js"},
+  {"from": 2787, "to": 2796, "on": "use", "callback": "food.js"},
+
+  {"from": 1945, "to": 1946, "on": "use", "callback": "lever.js"},
+  {"id": 1386, "on": "use", "callback": "ladder.js"},
+  {"id": 2120, "on": "useWith", "callback": "rope.js"},
+  {"id": 2553, "on": "useWith", "callback": "pick.js"},
+  {"id": 2554, "on": "useWith", "callback": "shovel.js"},
+  {"id": 2420, "on": "useWith", "callback": "machete.js"},
+  {"id": 2041, "on": "use", "callback": "toggle.js"},
+  {"id": 2057, "on": "use", "callback": "toggle.js"},
+  {"id": 430, "on": "use", "callback": "sewer.js"},
+
+  {"id": 2071, "on": "use", "callback": "music.js"},
+
+  {"id": 2694, "on": "useWith", "callback": "wheat.js"},
+  {"id": 2693, "on": "useWith", "callback": "dough.js"},
+  {"id": 2692, "on": "useWith", "callback": "flour.js"},
+  {"id": 2550, "on": "useWith", "callback": "scythe.js"},
+
+  {"from": 1479, "to": 1480, "on": "use", "callback": "toggle.js"},
+  {"from": 2058, "to": 2061, "on": "use", "callback": "toggle.js"},
+  {"from": 2066, "to": 2069, "on": "use", "callback": "toggle.js"},
+  {"from": 2037, "to": 2040, "on": "use", "callback": "toggle.js"},
+  {"from": 2044, "to": 2045, "on": "use", "callback": "toggle.js"},
+  {"from": 2050, "to": 2055, "on": "use", "callback": "toggle.js"},
+  {"from": 2261, "to": 2316, "on": "useWith", "callback": "rune.js"},
+  {"from": 1786, "to": 1793, "on": "use", "callback": "toggle.js"},
+  {"from": 2162, "to": 2163, "on": "use", "callback": "toggle.js"},
+
+  {"ids": [416, 426, 446], "on": "enter", "callback": "enterTiles.js"},
+  {"ids": [417, 425, 447], "on": "exit", "callback": "exitTiles.js"},
+  {"id": 2046, "on": "useWith", "callback": "lamp.js"}
+]

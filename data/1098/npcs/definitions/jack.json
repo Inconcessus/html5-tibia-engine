@@ -1,0 +1,39 @@
+{
+  "creatureStatistics": {
+    "name": "Jack",
+    "health": 50,
+    "maxHealth": 50,
+    "attack": 1,
+    "mana": 0,
+    "maxMana": 0,
+    "attackSlowness": 40,
+    "defense": 5,
+    "slowness": 40,
+    "outfit": {
+      "id": 129,
+      "details": {
+        "head": 97,
+        "body": 95,
+        "legs": 116,
+        "feet": 114
+      }
+    }
+  },
+  "hearingRange": 5,
+  "wanderRange": 2,
+  "farewells": [
+    "bye"
+  ],
+  "greetings": [
+    "hello",
+    "hi"
+  ],
+  "sayings": {
+    "texts": [
+      "Yoho-Yoho, a law abiding sailors life for me!"
+    ],
+    "slowness": 300,
+    "chance": 0.75
+  },
+  "script": "jack.js"
+}

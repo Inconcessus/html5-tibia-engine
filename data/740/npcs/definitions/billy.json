@@ -1,0 +1,40 @@
+{
+  "creatureStatistics": {
+    "name": "Billy",
+    "health": 50,
+    "maxHealth": 50,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 1,
+    "attackSlowness": 40,
+    "defense": 5,
+    "speed": 30,
+    "outfit": {
+      "id": 128,
+      "details": {
+        "head": 38,
+        "body": 63,
+        "legs": 67,
+        "feet": 39
+      }
+    }
+  },
+  "hearingRange": 5,
+  "wanderRange": 3,
+  "trade": [],
+  "farewells": [
+    "bye"
+  ],
+  "greetings": [
+    "hello",
+    "hi"
+  ],
+  "sayings": {
+    "texts": [
+      "Bread!"
+    ],
+    "slowness": 300,
+    "chance": 0.75
+  },
+  "script": "billy.js"
+}

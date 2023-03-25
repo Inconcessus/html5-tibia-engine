@@ -1,0 +1,59 @@
+{
+  "creatureStatistics": {
+    "name": "Teller",
+    "health": 50,
+    "maxHealth": 50,
+    "attack": 1,
+    "mana": 0,
+    "maxMana": 0,
+    "attackSlowness": 40,
+    "defense": 5,
+    "speed": 30,
+    "outfit": {
+      "id": 141,
+      "details": {
+        "head": 12,
+        "body": 2,
+        "legs": 12,
+        "feet": 10
+      }
+    }
+  },
+  "hearingRange": 5,
+  "wanderRange": 2,
+  "farewells": [
+    "bye"
+  ],
+  "trade": [
+    {
+      "name": "Letter",
+      "price": 0,
+      "id": 2597,
+      "type": "sell"
+    },
+    {
+      "name": "Parcel",
+      "price": 0,
+      "id": 2595,
+      "type": "sell"
+    },
+    {
+      "name": "Label",
+      "price": 0,
+      "id": 2599,
+      "type": "sell"
+    }
+  ],
+  "greetings": [
+    "hello",
+    "hi"
+  ],
+  "sayings": {
+    "texts": [
+      "A safe place to store your items!"
+    ],
+    "slowness": 300,
+    "chance": 0.75
+  },
+  "script": "teller.js"
+}

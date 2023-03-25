@@ -1,0 +1,77 @@
+{
+  "creatureStatistics": {
+    "name": "Albert",
+    "health": 50,
+    "maxHealth": 50,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 1,
+    "attackSlowness": 40,
+    "defense": 5,
+    "speed": 30,
+    "outfit": {
+      "id": 128,
+      "details": {
+        "head": 0,
+        "body": 76,
+        "legs": 116,
+        "feet": 131
+      }
+    }
+  },
+  "hearingRange": 5,
+  "wanderRange": 2,
+  "trade": [
+    {
+      "name": "Shovel",
+      "price": 5,
+      "id": 2554,
+      "type": "sell"
+    },
+    {
+      "name": "Backpack",
+      "price": 2,
+      "id": 1988,
+      "type": "sell"
+    },
+    {
+      "name": "Rope",
+      "price": 5,
+      "id": 2120,
+      "type": "sell"
+    },
+    {
+      "name": "Torch",
+      "price": 1,
+      "id": 2050,
+      "type": "sell"
+    },
+    {
+      "name": "Pickaxe",
+      "price": 3,
+      "id": 2553,
+      "type": "sell"
+    },
+    {
+      "name": "Arrows",
+      "price": 1,
+      "id": 2544,
+      "type": "sell"
+    }
+  ],
+  "farewells": [
+    "bye"
+  ],
+  "greetings": [
+    "hello",
+    "hi"
+  ],
+  "sayings": {
+    "texts": [
+      "Make sure you do not go exploring without adequate preparation and equipment!"
+    ],
+    "slowness": 300,
+    "chance": 0.75
+  },
+  "script": "albert.js"
+}
