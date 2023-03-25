@@ -1,4 +1,8 @@
-# Forby HTML5 Open Tibia Client and Server
+# Forby HTML5 Open Tibia Server
+
+# Example
+
+Visit https://inconcessus.nl for an example server & client. The client software can be found [here](https://github.com/Inconcessus/html5-tibia-client).
 
 # Installation
 
@@ -8,7 +12,6 @@ The server runs on NodeJS and is lightweight. It requires only two NPM modules t
 
 The server can be started by running `node engine.js`.
 The login server can be started by running `node login.js`.
-The client directory can be hosted running `cd client; python3 -m http.server` or similar.
 The IPC client can be started using `node ipcclient.js`.
 
 # Server Engine
